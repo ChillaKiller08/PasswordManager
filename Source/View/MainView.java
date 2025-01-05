@@ -47,7 +47,7 @@ public class MainView extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Eras Light ITC", 0, 14)); // NOI18N
         jLabel2.setText("Selecciona un metodo:");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("/Assets/4157467991600002640-32.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("Assets/4157467991600002640-32.png")); // NOI18N
         jButton1.setContentAreaFilled(false);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.setMaximumSize(new java.awt.Dimension(134, 135));
@@ -59,12 +59,12 @@ public class MainView extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("/Assets/1947336761647100444-32.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("Assets/1947336761647100444-32.png")); // NOI18N
         jButton2.setContentAreaFilled(false);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.setName("Bzoom"); // NOI18N
 
-        jButton3.setIcon(new javax.swing.ImageIcon("/Assets/21260910731571183076-32.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("Assets/21260910731571183076-32.png")); // NOI18N
         jButton3.setBorderPainted(false);
         jButton3.setContentAreaFilled(false);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

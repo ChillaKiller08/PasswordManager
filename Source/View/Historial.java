@@ -41,7 +41,7 @@ public class Historial extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jLabel1.setText("Historial");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("/Assets/4571914521627270250-32.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("Assets/4571914521627270250-32.png")); // NOI18N
         jButton1.setContentAreaFilled(false);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -63,11 +63,11 @@ public class Historial extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jButton2.setIcon(new javax.swing.ImageIcon("/Assets/1947336761647100444-32.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("Assets/1947336761647100444-32.png")); // NOI18N
         jButton2.setContentAreaFilled(false);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton3.setIcon(new javax.swing.ImageIcon("/Assets/21260910731571183076-32.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("Assets/21260910731571183076-32.png")); // NOI18N
         jButton3.setContentAreaFilled(false);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 

@@ -108,11 +108,11 @@ public class Preferencias extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setIcon(new javax.swing.ImageIcon("/Assets/1947336761647100444-32.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon("Assets/1947336761647100444-32.png")); // NOI18N
         jButton4.setContentAreaFilled(false);
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton3.setIcon(new javax.swing.ImageIcon("/Assets/21260910731571183076-32.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("Assets/21260910731571183076-32.png")); // NOI18N
         jButton3.setContentAreaFilled(false);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton3.addActionListener(new java.awt.event.ActionListener() {

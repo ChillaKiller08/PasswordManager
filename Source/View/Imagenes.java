@@ -74,7 +74,7 @@ public class Imagenes extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setIcon(new javax.swing.ImageIcon("/Assets/4571914521627270250-32.png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon("Assets/4571914521627270250-32.png")); // NOI18N
         jButton5.setContentAreaFilled(false);
         jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -83,11 +83,11 @@ public class Imagenes extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setIcon(new javax.swing.ImageIcon("/Assets/1947336761647100444-32.png")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon("Assets/1947336761647100444-32.png")); // NOI18N
         jButton6.setContentAreaFilled(false);
         jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton7.setIcon(new javax.swing.ImageIcon("/Assets/21260910731571183076-32.png")); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon("Assets/21260910731571183076-32.png")); // NOI18N
         jButton7.setToolTipText("");
         jButton7.setContentAreaFilled(false);
         jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
