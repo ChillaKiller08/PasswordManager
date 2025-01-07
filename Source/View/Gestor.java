@@ -15,13 +15,14 @@ public class Gestor extends JFrame {
     private JTextField nameField;
     private MainView mainWindow;  // Referencia a la ventana principal
 
-    public Gestor(PasswordController controller) {
+    public Gestor(PasswordController controller, MainView mainWindow) {
         this.passwordController = controller;
-        this.mainWindow = mainWindow;  // Inicializamos la ventana principal
+        this.mainWindow = mainWindow;  // Ahora está correctamente inicializado
         System.out.println("Referencia mainWindow: " + this.mainWindow);
         initComponents();
         loadPasswords();
     }
+    
 
     private void initComponents() {
         setTitle("Gestor de Contraseñas");
@@ -164,4 +165,5 @@ public class Gestor extends JFrame {
             mainWindow.setVisible(true);  // Muestra la ventana principal
         }
     }
+    
 }

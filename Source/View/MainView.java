@@ -181,13 +181,14 @@ public class MainView extends javax.swing.JFrame {
     private void abrirGestor(java.awt.event.ActionEvent evt) {
         try {
             PasswordController passwordController = new PasswordController(); // Crear el controlador
-            Gestor gestor = new Gestor(passwordController); // Pasar 'this' (MainView) al constructor de Gestor
+            Gestor gestor = new Gestor(passwordController, this); // Pasar 'this' (MainView) al constructor de Gestor
             gestor.setVisible(true); // Mostrar la ventana Gestor
             this.setVisible(false); // Ocultar la ventana MainView
         } catch (Exception e) {
             e.printStackTrace(); // Manejo básico de errores
         }
     }
+    
     /**
      * @param args the command line arguments
      */
